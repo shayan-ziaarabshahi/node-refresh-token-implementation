@@ -16,7 +16,7 @@ const getAllUsers = asyncHandler(async (req, res) => {
     }
 
     res.json(users)
-})
+}) 
 
 // @desc Create new user
 // @route POST /users
